@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Visitor, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; 
+  color: #ffffff
+}
+
+@font-face {
+  font-family: 'Visitor';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/Visitor.ttf');
+  src: local('Visitor'), local('Visitor'),
+       url('./assets/Visitor.eot?#iefix') format('embedded-opentype'),
+       url('./assets/Visitor.otf') format('otf'),
+}
